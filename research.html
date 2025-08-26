@@ -1,0 +1,144 @@
+<html>
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WV5Z44Z6');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Theo Grayer – Research</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <script
+      type="text/javascript"
+      src="https://platform-api.sharethis.com/js/sharethis.js#property=68ae32ab65f62a69674cfe23&product=inline-follow-buttons"
+      async="async"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Accordion styles from Tim Cejka -->
+    <style>
+      button.accordion {
+        font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        cursor: pointer;
+        padding: 0px;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 100%;
+        transition: 0.4s;
+        background-color: #f8f8f8;
+      }
+      button.accordion.active, button.accordion:hover {
+        background-color: #f8f8f8;
+      }
+      button.accordion:after {
+        content: '[+]';
+        font-size: 90%;
+        color:#777;
+        float: left;
+        margin-left: 1px;
+      }
+      button.accordion.active:after {
+        content: "[\2212]";
+      }
+      div.panel {
+        padding: 0 20px;
+        margin-top: 5px;
+        display: none;
+        background-color: #F1F1F1;
+        color: #666;
+        font-size: 100%;
+      }
+      div.panel.show {
+        display: block !important;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-WV5Z44Z6"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="wrapper">
+      <!-- LEFT SIDE -->
+      <header>
+        <h1>Theo Grayer</h1>
+        <p>Economics PhD Student at UChicago</p>
+        <h3><p class="view"><a href="index.html">About me</a></p></h3>
+        <h3><p class="view"><a href="research.html">Research</a></p></h3>
+        <h3><p class="view"><a href="papers/cv.pdf" download="Theo_Grayer_CV.pdf">CV</a></p></h3>
+
+        <p class="view">
+          <img src="pictures/prof_photo_slack.png" width="270" height="270" alt="Theo Grayer">
+        </p>
+        <p>
+          Contact me by <a href="mailto:tgrayer@uchicago.edu">email</a> or follow me on my social networks:
+        </p>
+        <div class="sharethis-inline-follow-buttons"></div>
+      </header>
+
+      <!-- RIGHT SIDE -->
+      <section>
+        <h3>Working papers and ongoing projects:</h3>
+
+        <p style="margin:0;">
+          <a style="margin:0; font-size:100%; font-weight:bold" href="papers/weather_risk.pdf" target="_blank">
+            Do Typical Weather Shocks Disrupt U.S. Labor Markets?
+          </a><br>
+          <button class="accordion">Abstract</button>
+        </p>
+        <div class="panel" style="padding: 10px;">
+          Not for most hourly workers. This short paper addresses a debate in
+          the prior literature concerning the effect of typical (non-extreme)
+          weather shocks on the U.S. labor market. In contrast to these
+          prior studies, which rely on survey data of time-use, I leverage
+          administrative records from a large payroll processor. I find that
+          after accounting for long-run adaptation, the overall impact of
+          typical weather shocks on hours worked is minimal for hourly
+          workers. Specifically, each additional inch (2.54 cm) of weekly
+          rainfall reduces weekly hours worked by only 12 minutes, with
+          even smaller effects for snowfall and temperature extremes. In
+          the long run, hourly workers in regions with higher annual
+          precipitation exhibit less sensitivity to rainfall, suggesting
+          that adaptation will mitigate future labor market disruption
+          caused by projected increases in the frequency and severity of
+          typical weather shocks.
+        </div>
+      </section>
+    </div>
+
+    <script src="javascripts/scale.fix.js"></script>
+    <script>
+      // Accordion toggle behavior (imported from Tim Cejka)
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function(){
+          this.classList.toggle("active");
+          this.parentNode.nextElementSibling.classList.toggle("show");
+        }
+      }
+    </script>
+  </body>
+</html>
